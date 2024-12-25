@@ -17,8 +17,8 @@ usage() {
     echo "Options:"
     echo -e "  ${BLUE}--baud <rate>${RESET}        Set baud rate (default: 921600)"
     echo -e "  ${BLUE}--timeout <seconds>${RESET}  Set timeout (default: 30)"
-    echo -e "  ${BLUE}--verbose${RESET}            Enable verbose output (hear all my secrets)"
-    echo -e "  ${BLUE}--silent${RESET}             Suppress output (because silence is golden)"
+    echo -e "  ${BLUE}--verbose${RESET}            Enable verbose output"
+    echo -e "  ${BLUE}--silent${RESET}             Suppress output"
     echo
     exit 1
 }
